@@ -12,7 +12,7 @@ class App extends React.Component {
       <>
         <Navbar />
         <Counter />
-        {/* <section id="articles">
+        <section id="articles">
           <Article
             title="Designing Dashboards"
             img={article1}
@@ -33,7 +33,7 @@ class App extends React.Component {
             img={article2}
             provider="NASA"
           />
-        </section> */}
+        </section>
       </>
     );
   }
