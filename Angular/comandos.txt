@@ -1,0 +1,5 @@
+npm install -g @angular/cli
+
+ng --help
+
+ng new nome_projeto
