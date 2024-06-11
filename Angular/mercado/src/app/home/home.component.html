@@ -1,2 +1,5 @@
 <p>Componente Pai</p>
-<app-banner [image]="image"></app-banner>
+<p>Variavel do componente pai {{ image }}</p>
+<app-banner [image]="image" (onClick)="receberResult($event)"></app-banner>
+
+{{ result }}
