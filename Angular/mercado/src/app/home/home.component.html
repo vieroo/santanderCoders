@@ -2,4 +2,10 @@
 <p>Variavel do componente pai {{ image }}</p>
 <app-banner [image]="image" (onClick)="receberResult($event)"></app-banner>
 
+<div *ngIf="listOfCats$ | async as listOfCats">
+  <div *ngFor="let cat of listOfCats$ | async">
+    {{ cat.text }}
+  </div>
+</div>
+
 {{ result }}
